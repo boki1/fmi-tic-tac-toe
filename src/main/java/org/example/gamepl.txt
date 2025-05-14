@@ -1,0 +1,12 @@
+game.pl
+
+make_move(+BigRow, +BigCol, +SmallRow, +SmallCol, -Player, -NextBoard, -Result)
+
+make_move(BR, BC, SR, SC, Player, NextBoard, Result) :-
+    % Your internal logic
+    % For example:
+    Player = x,
+    NextBoard = [SR, SC],
+    Result = ongoing.
+
+нещо такова
