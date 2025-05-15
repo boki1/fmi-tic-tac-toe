@@ -21,6 +21,6 @@ test {
 }
 
 application {
-    mainClass = 'org.example.MainClass'
-    applicationDefaultJvmArgs = ["-Djava.library.path=C:/Program Files/swipl/bin"]
+    mainClass = 'org.example.Main'
+    applicationDefaultJvmArgs = ["-Djava.library.path=libs"]
 }
